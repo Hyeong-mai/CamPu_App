@@ -65,11 +65,20 @@ const Slide = () => {
     <SlideStyle>
       <SlideButton>
         <CarWrap>
+          <Car src="image/lay.png" />
+        </CarWrap>
+        <DeTail>
+          <Name>RAY EV</Name>
+          <Price>5,000원</Price>
+        </DeTail>
+      </SlideButton>
+      <SlideButton>
+        <CarWrap>
           <Car src="image/niro.png" />
         </CarWrap>
         <DeTail>
           <Name>NIRO EV</Name>
-          <Price>20,000원</Price>
+          <Price>5,000원</Price>
         </DeTail>
       </SlideButton>
       <SlideButton>
@@ -78,16 +87,7 @@ const Slide = () => {
         </CarWrap>
         <DeTail>
           <Name>CONA EV</Name>
-          <Price>15,000원</Price>
-        </DeTail>
-      </SlideButton>
-      <SlideButton>
-        <CarWrap>
-          <Car src="image/lay.png" />
-        </CarWrap>
-        <DeTail>
-          <Name>RAY EV</Name>
-          <Price>10,000원</Price>
+          <Price>5,000원</Price>
         </DeTail>
       </SlideButton>
     </SlideStyle>

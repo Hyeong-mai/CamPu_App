@@ -88,17 +88,6 @@ const Detail = styled.div`
   background-color: white;
   padding-left: 30px;
 `;
-const SmallText = styled.div`
-  margin-top: 10px;
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20px;
-  background-color: rgba(245, 245, 245);
-  color: gray;
-  font-size: 10px;
-`;
 const CarName = styled.p`
   font-weight: bold;
 `;
@@ -135,35 +124,32 @@ const MapPage = () => {
           <List>
             <Item onClick={goToMapPage}>
               <CarImg>
-                <Car src="image/niro.png" />
-                <SmallText>220 ~ 240원/km</SmallText>
+                <Car src="image/lay.png" />
               </CarImg>
               <Detail>
-                <CarName>NIRO EV</CarName>
+                <CarName>RAY EV</CarName>
                 <Box>편도 가능</Box>
-                <Price>20,000원</Price>
+                <Price>5,000원</Price>
               </Detail>
             </Item>
             <Item>
               <CarImg>
                 <Car src="image/cona.webp" />
-                <SmallText>220 ~ 240원/km</SmallText>
               </CarImg>
               <Detail>
                 <CarName>CONA EV</CarName>
                 <Box>편도 가능</Box>
-                <Price>15,000원</Price>
+                <Price>5,000원</Price>
               </Detail>
             </Item>
             <Item>
               <CarImg>
-                <Car src="image/lay.png" />
-                <SmallText>220 ~ 240원/km</SmallText>
+                <Car src="image/niro.png" />
               </CarImg>
               <Detail>
-                <CarName>RAY EV</CarName>
+                <CarName>NIRO EV</CarName>
                 <Box>편도 가능</Box>
-                <Price>10,000원</Price>
+                <Price>5,000원</Price>
               </Detail>
             </Item>
           </List>
