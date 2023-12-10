@@ -11,7 +11,7 @@ const Map = ({ setOpen }) => {
 
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=e7786162388557f11d317f275d81f71d&autoload=false`;
+    script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=3ba23fb0c64add6ceac2e3d4909c8de0&autoload=false`;
     document.head.appendChild(script);
 
     script.onload = () => {
