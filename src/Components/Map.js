@@ -6,7 +6,7 @@ const MapContainer = styled.div`
   height: 100%; // 맵 컨테이너의 크기를 조정하세요
 `;
 
-const Map = ({ setVal, setOpen }) => {
+const Map = ({ setOpen }) => {
   const mapContainerRef = useRef(null);
 
   useEffect(() => {
@@ -44,7 +44,7 @@ const Map = ({ setVal, setOpen }) => {
           });
 
           window.kakao.maps.event.addListener(marker, "click", function () {
-            setVal(pos.title); // 클릭 시 해당 마커의 타이틀 표시
+            // 클릭 시 해당 마커의 타이틀 표시
             setOpen(true);
           });
           // 추가적인 마커 설정은 여기서 진행...
@@ -52,7 +52,7 @@ const Map = ({ setVal, setOpen }) => {
         // 여기에 추가적인 맵 설정을 추가할 수 있습니다.
       });
     };
-  }, [setVal, setOpen]);
+  }, [setOpen]);
 
   return <MapContainer ref={mapContainerRef} />;
 };

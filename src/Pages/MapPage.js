@@ -117,7 +117,6 @@ const Price = styled.h2`
   color: orange;
 `;
 const MapPage = () => {
-  const [val, setVal] = useState();
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
 
@@ -126,7 +125,7 @@ const MapPage = () => {
   };
   return (
     <MapContainer>
-      <Map setOpen={setOpen} setVal={setVal} />
+      <Map setOpen={setOpen} />
       <SearchBox>
         <h5>검색어를 입력해주세요</h5>
       </SearchBox>
