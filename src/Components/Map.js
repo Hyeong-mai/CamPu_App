@@ -52,7 +52,7 @@ const Map = ({ setVal, setOpen }) => {
         // 여기에 추가적인 맵 설정을 추가할 수 있습니다.
       });
     };
-  }, []);
+  }, [setVal, setOpen]);
 
   return <MapContainer ref={mapContainerRef} />;
 };
