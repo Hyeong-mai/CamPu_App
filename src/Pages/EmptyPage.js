@@ -86,7 +86,7 @@ const EmptyPage = () => {
               <Time>20분</Time>
               <Km>8.5Km</Km>
             </Wrap>
-            <Price>20,000원</Price>
+            <Price>5,000원</Price>
           </Detail>
           <Button>
             <h2>대여하기</h2>

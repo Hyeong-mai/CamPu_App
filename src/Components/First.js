@@ -1,4 +1,5 @@
 import React from "react";
+
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
@@ -12,6 +13,7 @@ const FirstStyle = styled.div`
   margin-top: 20px;
 `;
 const ButtonStyle = styled.button`
+  position: relative;
   width: 47%;
   height: 90%;
   display: flex;
