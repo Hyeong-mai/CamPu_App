@@ -62,7 +62,7 @@ const First = () => {
         <SubTitle>가까운 픽업존 찾기</SubTitle>
       </ButtonStyle>
       <Button2Style>
-        <Title>여기로 부루기</Title>
+        <Title>여기로 부르기</Title>
         <SubTitle>가까운 픽업존 찾기</SubTitle>
       </Button2Style>
     </FirstStyle>

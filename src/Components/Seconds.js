@@ -20,32 +20,23 @@ const ButtonStyle = styled.button`
   border: none;
   background-color: white;
 `;
-const Title = styled.h3`
-  color: orange;
-  font-weight: bold;
-  margin: 0;
-  margin-bottom: 10px;
-`;
-const SubTitle = styled.h5`
-  color: gray;
-  margin: 0;
-  float: left;
-`;
+// const Title = styled.h3`
+//   color: orange;
+//   font-weight: bold;
+//   margin: 0;
+//   margin-bottom: 10px;
+// `;
+// const SubTitle = styled.h5`
+//   color: gray;
+//   margin: 0;
+//   float: left;
+// `;
 const Seconds = () => {
   return (
     <SecondsStyle>
-      <ButtonStyle>
-        <Title>편도로 타기</Title>
-        <SubTitle>픽업존 찾기</SubTitle>
-      </ButtonStyle>
-      <ButtonStyle>
-        <Title>편도로 타기</Title>
-        <SubTitle>픽업존 찾기</SubTitle>
-      </ButtonStyle>
-      <ButtonStyle>
-        <Title>편도로 타기</Title>
-        <SubTitle>픽업존 찾기</SubTitle>
-      </ButtonStyle>
+      <ButtonStyle></ButtonStyle>
+      <ButtonStyle></ButtonStyle>
+      <ButtonStyle></ButtonStyle>
     </SecondsStyle>
   );
 };
